@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "socket-io-app",
+    "slug": "socket-io-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/chat-icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/chat-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jack.sparrow221b.socketioapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/chat-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.jack.sparrow221b.socketioapp"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/helvetica-bold.ttf",
+            "./assets/fonts/helvetica-light.ttf",
+            "./assets/fonts/helvetica.ttf"
+          ]
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "3f0be730-9ef2-46e5-8094-c02bdea742f5"
+      }
+    }
+  }
+}
