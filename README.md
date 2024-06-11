@@ -58,6 +58,10 @@ Open the Expo app on your mobile device and scan the QR code to view the app.
   <img src="./assets/images/screenshot4.jpg" alt="Screenshot 4" width="200">
 </div>
 
+## Download link 🔗
+
+[Download the APK](https://drive.google.com/file/d/1DomHS25_TzHxCi1gBvkd9ITDweVCNEAX/view?usp=sharing)
+
 ## Contributing 🤝
 
 Contributions are welcome! If you'd like to contribute to Chatify, please fork the repository and create a pull request.
